@@ -15,7 +15,7 @@
     </div>
 
     <div class="post-date text-faded">
-      {{ post.publishedAt }}
+      {{ new Date(post.publishedAt).toLocaleDateString() }}
     </div>
   </div>
 </template>
