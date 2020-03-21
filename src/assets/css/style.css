@@ -1433,11 +1433,6 @@ input[type="submit"] {
     color: white;
 }
 
-input[type="reset"] {
-    background-color:tomato;
-    color: white;
-}
-
 button {
     -webkit-appearance: none;
 }
